@@ -1,0 +1,2 @@
+org\openmrs\module\edtriage\extension\html\AdminList.class
+org\openmrs\module\edtriage\web\controller\EDTriageManageController.class
