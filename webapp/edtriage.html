@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ED Triage Form</title>
+        <meta charset="UTF-8">
+		<link rel="stylesheet" href="edtriage.css">
+    </head>
+    <body>
+	<div class="nav">
+	<header>
+	<h6>A web Form</h6>
+	</header>
+	<ul>
+	<li>&#8678<li>
+	<li>&#8680<li>
+	<li>&#9747<li>
+	<input type="url" placeholder="http://">
+	<button type="button">search</button>
+	</ul>
+	</div>
+	<form>
+	<div class="textarea1">
+	Patient info
+	</div>
+	<br>Chief Complaint<br>
+	<input type="text" size="30" autofocus>
+	<select>
+	<option value="adult">Adult</option>
+	<option value="child">Child</option>
+	<option value="infant">Infant</option>
+    </select>
+	<button class="indicator" type="button">Indicator</button>
+	<div class="itemList">
+	<table cellspacing="10">
+  <tr>
+    <th>Vitals</th>
+    <th>Symptoms</th>
+  </tr>
+  <tr>
+    <td>Mobility</td>
+    <td>Neurological</td>
+  </tr>
+  <tr>
+    <td>Respiratory Rate</td>
+    <td>Burn</td>
+  </tr>
+  <tr>
+    <td>Oxygen Saturation</td>
+    <td>Diabetic</td>
+  </tr>
+  <tr>
+    <td>Heart Rate</td>
+    <td>Trauma</td>
+  </tr>
+  <tr>
+    <td>Blood Pressure</td>
+    <td>Digestive</td>
+  </tr>
+  <tr>
+    <td>Temperature</td>
+    <td>Pregnancy</td>
+  </tr>
+  <tr>
+    <td>Consciousness</td>
+    <td>Respiratory</td>
+  </tr>
+  <tr>
+    <td>Trauma</td>
+    <td>Pain</td>
+  </tr>
+  <tr>
+    <td>SCORE</td>
+    <td>Other</td>
+  </tr>
+</table>
+</div>
+<br><br>
+<ul class="buttonList">
+<li><button type="button" id="clear">Clear</button></li>
+<li><button type="button" id="exit">Exit</button></li>
+<li><button type="button" id="submit">Submit</button></li>
+</ul>
+</form>
+</body>
+</html>	
