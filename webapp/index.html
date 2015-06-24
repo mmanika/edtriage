@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Web Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+  <div class="container" style="margin-top:20px">
+  <nav class="navbar navbar-default">
+  <ul class="nav navbar-nav">
+        <li><a href="#"><button type="button" class="btn btn-info">
+    <span class="glyphicon glyphicon-arrow-left"></span>
+  </button></a></li>
+        <li><a href="#"><button type="button" class="btn btn-info">
+    <span class="glyphicon glyphicon-arrow-right"></span>
+  </button></a></a></li>
+  <li><a href="#"><button type="button" class="btn btn-info">
+    <span class="glyphicon glyphicon-remove"></span>
+  </button></a></a></li> 
+        <li><a href="#"><button type="button" class="btn btn-info">
+    <span class="glyphicon glyphicon-home"></span>
+  </button></a></a></li> 
+  </ul>
+        
+        <form class="navbar-form navbar-default" role="search">
+        <div class="form-group" style="margin-top:10px">
+          <input type="text" alignclass="form-control" placeholder="http://" style="width:790px;">
+        </div>
+		<button type="submit" class="btn btn-info"><span class="glyphicon glyphicon-search"></span></button>
+		</form>		
+</nav>
+</div>
+<div class="container">
+<textarea class="form-control" rows="3" placeholder="Patient info"></textarea><br>
+<label>Chief Complaint</label>
+<form class="form-inline" role="form">
+<div class="form-group">
+<input type="text" class="form-control" id="focusedInput" style="width:300px">
+</div>
+<div class="form-group" style="margin-left:20px">
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+    Adult
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+  <li><a role="menuitem" tabindex="-1" href="#">Infant</a></li>
+  <li><a role="menuitem" tabindex="-1" href="#">Child</a></li>
+</div>  
+</div>
+<div class="pull-right">
+<button type="button" class="btn btn-primary btn-md	">Indicator</button>
+</div>
+</form>
+<br>
+<div class="row">
+<div class="col-md-6">
+<ul style="border:1px solid black;list-style-type:none">
+<li><strong>Vitals</strong></li>
+<li>Mobility</li>
+<li>Respiratory Rate</li>
+<li>Oxygen Saturation</li>
+<li>Heart Rate</li>
+<li>Blood Pressure</li>
+<li>Temperature</li>
+<li>Consciousness</li>
+<li>Trauma</li>
+<li>SCORE</li>
+</ul>
+</div>
+<ul style="border:1px solid black;list-style-type:none">
+<li><strong>Symptoms</strong></li>
+<li>Neurological</li>
+<li>Burn</li>
+<li>Diabetic</li>
+<li>Trauma</li>
+<li>Digestive</li>
+<li>Pregnancy</li>
+<li>Respiratory</li>
+<li>Pain</li>
+<li>Other</li>
+</ul>
+</div>
+<br>
+<ul class="list-inline" style="display:inline">
+<li><button type="button" class="btn btn-primary btn-md	">Clear</button></li>
+<li><button type="button" class="btn btn-primary btn-md	">Exit</button></li>
+<li class="pull-right"><button type="button" class="btn btn-primary btn-lg">Submit</button></li>
+</ul>
+</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
